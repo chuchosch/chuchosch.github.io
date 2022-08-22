@@ -1,0 +1,27 @@
+.card{
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 170, 159);
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.card_imagen{
+    align-self: center;
+    height: auto;
+    width: auto;
+}
+
+.card_texto{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(103, 103, 112);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}

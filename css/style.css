@@ -1,0 +1,154 @@
+.pagina-principal {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 195px;
+  padding-bottom: 195px;
+  border-bottom: 4px none rgb(255, 170, 159);
+  background-image: url(../imagenes/fondo.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.boton {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background-color: rgb(255, 170, 159);
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.boton2 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 170, 159);
+  border-radius: 4px;
+  transition-property: background-color, border, color;
+  transition-duration: 300ms, 300ms, 300ms;
+  transition-timing-function: ease, ease, ease;
+  color: rgb(255, 170, 159);
+  line-height: 21px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: rgb(255, 170, 159);
+  background-color: transparent;
+}
+
+.fuente {
+  margin-bottom: 40px;
+  color: white !important;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300 !important;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.apere {
+  margin-bottom: 30px;
+  color: rgb(255, 170, 159);
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.titulo {
+  color: rgb(255, 170, 159);
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.grilla {
+  display: grid;
+  grid-template-areas: "arriba arriba arriba" "primera medio ultima";
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.arriba {
+  grid-area: arriba;
+  align-self: center;
+}
+
+.primera {
+  grid-area: primera;
+  display: inline-flex;
+}
+
+.medio {
+  grid-area: medio;
+  display: inline-flex;
+}
+
+.ultima {
+  grid-area: ultima;
+  display: inline-flex;
+}
+
+.card {
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 170, 159);
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+  margin: 10px;
+}
+
+.card_imagen {
+  align-self: center;
+  height: auto;
+  width: auto;
+}
+
+.card_texto {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(103, 103, 112);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.section {
+  position: relative;
+  padding: 80px 10px;
+  border-top: 0px solid rgb(255, 170, 159);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(255, 170, 159);
+  text-align: center;
+}
+
+.negro {
+  background-color: black !important;
+}/*# sourceMappingURL=style.css.map */

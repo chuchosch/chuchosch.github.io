@@ -1,0 +1,28 @@
+.grilla{
+    display: grid;
+    grid-template-areas: "arriba arriba arriba"
+                         "primera medio ultima";
+    grid-template-rows: auto auto ;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.arriba{ 
+    grid-area: arriba;
+    align-self: center;
+}
+
+.primera{
+    grid-area: primera;
+    display: inline-flex;
+}
+
+.medio{
+    grid-area: medio;
+    display: inline-flex;
+}
+
+.ultima{
+    grid-area: ultima;
+    display: inline-flex;
+}
