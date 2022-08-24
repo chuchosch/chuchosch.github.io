@@ -1,5 +1,4 @@
 .pagina-principal {
-  margin-bottom: 40px;
   color: white;
   font-size: 25px;
   line-height: 25px;
@@ -90,6 +89,7 @@
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto;
   text-align: center;
+  margin-top: 50px;
 }
 
 .arriba {
@@ -127,6 +127,7 @@
   align-self: center;
   height: auto;
   width: auto;
+  padding-bottom: 7px;
 }
 
 .card_texto {
@@ -140,15 +141,60 @@
   text-transform: uppercase;
 }
 
+.contenedor {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
 .section {
   position: relative;
-  padding: 80px 10px;
+  padding: 10px;
   border-top: 0px solid rgb(255, 170, 159);
   border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: black;
   color: rgb(255, 170, 159);
   text-align: center;
 }
 
-.negro {
-  background-color: black !important;
+.pagina-principal {
+  color: white;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 195px;
+  padding-bottom: 195px;
+  border-bottom: 4px none rgb(255, 170, 159);
+  background-image: url(../imagenes/fondo.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.orden {
+  display: grid;
+  grid-template-areas: "imagen imagen" "titulo titulo" "bio bio" "boton boton";
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+.imagen {
+  grid-area: imagen;
+  padding: 20px;
+}
+
+.titulo {
+  grid-area: titulo;
+  padding: 10px;
+}
+
+.bio {
+  grid-area: bio;
+}
+
+.button {
+  grid-area: boton;
 }/*# sourceMappingURL=style.css.map */

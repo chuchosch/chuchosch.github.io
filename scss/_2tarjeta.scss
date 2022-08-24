@@ -1,0 +1,28 @@
+.orden{
+    display: grid;
+    grid-template-areas: "imagen imagen"
+                         "titulo titulo"
+                         "bio bio"
+                         "boton boton";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.imagen {
+    grid-area: imagen;
+    padding: 20px;
+}
+
+.titulo {
+    grid-area: titulo;
+    padding: 10px;
+}
+
+.bio {
+    grid-area: bio;
+}
+
+.button {
+    grid-area: boton;
+}
