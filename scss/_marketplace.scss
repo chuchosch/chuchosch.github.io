@@ -1,0 +1,20 @@
+.marketplace{
+    display: grid;
+    grid-template-areas: "1 1 1"
+                         "2 2 2"
+                         "3 3 3";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.fila1{
+    grid-area: 1;
+}
+
+.fila2{
+    grid-area: 2;
+}
+
+.fila3{
+    grid-area: 3;
+}

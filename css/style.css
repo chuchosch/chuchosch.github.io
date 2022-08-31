@@ -83,11 +83,15 @@
   text-transform: uppercase;
 }
 
+.color {
+  background-color: white !important;
+}
+
 .grilla {
   display: grid;
   grid-template-areas: "arriba arriba arriba" "primera medio ultima";
   grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 350px 350px 350px;
   text-align: center;
   margin-top: 50px;
 }
@@ -116,9 +120,9 @@
   padding: 15px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(255, 170, 159);
+  border-color: rgb(255, 170, 159) !important;
   border-radius: 5px;
-  background-color: black;
+  background-color: black !important;
   text-align: center;
   margin: 10px;
 }
@@ -142,6 +146,12 @@
 }
 
 .contenedor {
+  margin-left: 82px;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.contenedor2 {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
@@ -197,4 +207,107 @@
 
 .button {
   grid-area: boton;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.contenedor3 {
+  margin-left: 95px;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.productos {
+  display: grid;
+  grid-template-areas: "img" "p1" "p2" "p3" "bot";
+  grid-template-rows: 207px auto auto auto 50px;
+  grid-template-columns: 300px;
+  text-align: center;
+}
+
+.img {
+  grid-area: img;
+  align-self: center;
+  border-width: 2px;
+  border-color: rgb(255, 170, 159);
+  border-style: solid;
+}
+
+.p1 {
+  grid-area: p1;
+  display: inline-flex;
+}
+
+.p2 {
+  grid-area: p2;
+  display: inline-flex;
+}
+
+.p3 {
+  grid-area: p3;
+  display: inline-flex;
+}
+
+.bot {
+  grid-area: bot;
+  display: inline-flex;
+}
+
+.marketplace {
+  display: grid;
+  grid-template-areas: "1 1 1" "2 2 2" "3 3 3";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.fila1 {
+  grid-area: 1;
+}
+
+.fila2 {
+  grid-area: 2;
+}
+
+.fila3 {
+  grid-area: 3;
+}
+
+.footer {
+  display: grid;
+  grid-template-areas: "descripcion social" "parra twitter" "parra instagram" "parra facebook";
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.descripcion {
+  grid-area: descripcion;
+  align-content: flex-start;
+}
+
+.social {
+  grid-area: social;
+}
+
+.parra {
+  grid-area: parra;
+  display: inline-flex;
+}
+
+.twitter {
+  grid-area: twitter;
+  display: inline-flex;
+}
+
+.instagram {
+  grid-area: instagram;
+  display: inline-flex;
+}
+
+.facebook {
+  grid-area: facebook;
 }/*# sourceMappingURL=style.css.map */
