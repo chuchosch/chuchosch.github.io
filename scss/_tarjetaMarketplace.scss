@@ -11,6 +11,7 @@
     align-items: center;
 }
 // no toma la grid template area, pone todas las filas dentro de la primera, lo mismo con las columnas
+// es por el nombre anterior del archivo, no reconoce este que seria tarjetaMarketplace
 .fila1{
     grid-area: fila1;
     align-self: center;

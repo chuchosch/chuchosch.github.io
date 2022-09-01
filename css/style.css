@@ -306,4 +306,43 @@
 
 .separacion {
   margin-right: 10px;
+}
+
+.contactos {
+  display: grid;
+  grid-template-areas: "lab inp" "labe inpu" "la in";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 200px 350px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lab {
+  grid-area: lab;
+  margin: 10px;
+}
+
+.inp {
+  grid-area: inp;
+  margin: 10px;
+}
+
+.labe {
+  grid-area: labe;
+  margin: 10px;
+}
+
+.inpu {
+  grid-area: inpu;
+  margin: 10px;
+}
+
+.la {
+  grid-area: la;
+  margin: 10px;
+}
+
+.in {
+  grid-area: in;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
