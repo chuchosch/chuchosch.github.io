@@ -1,0 +1,38 @@
+.marketplace{
+    display: grid;
+    grid-template-areas: "fila1"
+                         "fila2"
+                         "fila3"
+                         "fila4"
+                         "fila5";
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 400px ;
+    text-align: center;
+    align-items: center;
+}
+// no toma la grid template area, pone todas las filas dentro de la primera, lo mismo con las columnas
+.fila1{
+    grid-area: fila1;
+    align-self: center;
+}
+
+.fila2{
+    grid-area: fila2;
+}
+
+.fila3{
+    grid-area: fila3;
+}
+
+.fila4{
+    grid-area: fila4;
+}
+
+.fila5{
+    grid-area: fila5;
+}
+
+.separacion{
+    margin-right: 10px;
+}
+

@@ -1,32 +1,17 @@
-.footer{
+.pie{
     display: grid;
-    grid-template-areas: "descripcion social"
-                         "parra twitter"
-                         "parra instagram"
-                         "parra facebook";
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-areas: "mail instagram wpp";
+    grid-template-rows: auto ;
+    grid-template-columns: 350px 350px 350px;
     text-align: center;
-    margin-top: 50px;
+    margin: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 
-.descripcion{ 
-    grid-area: descripcion;
-    align-content: flex-start;
-}
-
-.social{
-    grid-area: social;
-}
-
-.parra{
-    grid-area: parra;
-    display: inline-flex;
-}
-
-.twitter{
-    grid-area: twitter;
-    display: inline-flex;
+.mail{ 
+    grid-area: mail;
+    align-self: center;
 }
 
 .instagram{
@@ -34,6 +19,7 @@
     display: inline-flex;
 }
 
-.facebook{
-    grid-area: facebook;
+.wpp{
+    grid-area: wpp;
+    display: inline-flex;
 }

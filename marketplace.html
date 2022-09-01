@@ -8,7 +8,7 @@
     <link rel="stylesheet" href=".//css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
+<body class="atras">
     
     <!-- barra de inicio -->
 
@@ -23,6 +23,7 @@
               <a class="nav-link" href="./impresion.html">¿Como imprimir?</a>
               <a class="nav-link" href="./vender.html">¿Como vender?</a>
               <a class="nav-link" href="./marketplace.html">Marketplace</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
             </div>
           </div>
         </div>
@@ -30,142 +31,83 @@
 
     <!-- Tarjetas -->
 
-    <section class="marketplace">
+    <section class="algo">
 
-        <!-- fila 1 -->
-
-        <div class="fila1 productos">
+        <div class="marketplace">
 
             <div class="card">
 
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
+                <img src="./imagenes/hulk.png" alt="" class="fila1" width="250px" height="300px">
+
+               
+
+                
+                  
+                      <div class="hijo">
+                        <div class="input-group mb-3">
+                          <p class="separacion">Capa</p>
+                          <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="1">0.05</option>
+                          <option value="2">0.1</option>
+                          <option value="3">0.2</option>
+                          </select>
+                        </div>
+                                    
+                        <div class="input-group mb-3">
+                          <label class="separacion" for="">Infill</label>
+                          <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="1">10%</option>
+                          <option value="2">20%</option>
+                          <option value="3">30%</option>
+                          <option value="2">40%</option>
+                          <option value="3">50%</option>
+                          <option value="1">60%</option>
+                          <option value="2">70%</option>
+                          <option value="3">80%</option>
+                          <option value="2">90%</option>
+                          <option value="3">100%</option>
+                          </select>
+                        </div>
+                         
+                  
+                        <div class="input-group mb-3">
+                          <label class="separacion" for="">Soporte</label>
+                          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="btnradio1">Yes</label>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio2">No</label>
+                          </div>
+                        </div>
+                  
+                  
+
+                  
+                    <!-- <p class="salmon">Capa</p>
+                    <option selected>Choose...</option>
+                    <option value="1">0.05</option>
+                    <option value="2">0.1</option>
+                    <option value="3">0.2</option> -->
+                <!-- <p class="fila3 salmon">Relleno</p>
+                <p class="fila4 salmon">Soporte</p> -->
+                <button class="boton2 fila5" type="button" onclick="window.print()">IMPRIMIR</button>
 
             </div>
 
         </div>
 
-        <div class="fila1 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <div class="fila1 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <!-- fila 2 -->
-
-        <div class="fila2 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <div class="fila2 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <div class="fila2 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <!-- fila 3 -->
-
-        <div class="fila3 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <div class="fila3 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
-
-        <div class="fila3 productos">
-
-            <div class="card">
-
-                <img src="" alt="" class="img">
-                <p class="p1">Extrusor</p>
-                <p class="p2">Relleno</p>
-                <p class="p3">Soporte</p>
-                <button class="boton2 bot" type="button">APRENDE MÁS</button>
-
-            </div>
-
-        </div>
     </section>
 
-    
+    <footer class="pie ">
+
+        <a href="./contacto.html"><img src="./imagenes/mail.png" alt="" class="mail"></a>
+        <img src="./imagenes/inst.png" alt="" class="instagram">
+        <img src="./imagenes/wpp.png" alt="" class="wpp">
+      
+      </footer>
+      
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

@@ -74,6 +74,10 @@
   text-transform: uppercase;
 }
 
+.salmon {
+  color: rgb(255, 170, 159);
+}
+
 .titulo {
   color: rgb(255, 170, 159);
   font-size: 30px;
@@ -119,9 +123,9 @@
 .card {
   padding: 15px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
   border-color: rgb(255, 170, 159) !important;
-  border-radius: 5px;
+  border-radius: 15px !important;
   background-color: black !important;
   text-align: center;
   margin: 10px;
@@ -219,88 +223,45 @@
   max-width: 1000px;
 }
 
-.productos {
-  display: grid;
-  grid-template-areas: "img" "p1" "p2" "p3" "bot";
-  grid-template-rows: 207px auto auto auto 50px;
-  grid-template-columns: 300px;
-  text-align: center;
+.atras {
+  background-color: black;
 }
 
-.img {
-  grid-area: img;
+.algo {
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 0px;
+}
+
+.hijo {
+  width: 300px;
+  margin: 13px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+  color: #FFAA9F;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.pie {
+  display: grid;
+  grid-template-areas: "mail instagram wpp";
+  grid-template-rows: auto;
+  grid-template-columns: 350px 350px 350px;
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.mail {
+  grid-area: mail;
   align-self: center;
-  border-width: 2px;
-  border-color: rgb(255, 170, 159);
-  border-style: solid;
-}
-
-.p1 {
-  grid-area: p1;
-  display: inline-flex;
-}
-
-.p2 {
-  grid-area: p2;
-  display: inline-flex;
-}
-
-.p3 {
-  grid-area: p3;
-  display: inline-flex;
-}
-
-.bot {
-  grid-area: bot;
-  display: inline-flex;
-}
-
-.marketplace {
-  display: grid;
-  grid-template-areas: "1 1 1" "2 2 2" "3 3 3";
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto auto;
-  text-align: center;
-}
-
-.fila1 {
-  grid-area: 1;
-}
-
-.fila2 {
-  grid-area: 2;
-}
-
-.fila3 {
-  grid-area: 3;
-}
-
-.footer {
-  display: grid;
-  grid-template-areas: "descripcion social" "parra twitter" "parra instagram" "parra facebook";
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto auto;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.descripcion {
-  grid-area: descripcion;
-  align-content: flex-start;
-}
-
-.social {
-  grid-area: social;
-}
-
-.parra {
-  grid-area: parra;
-  display: inline-flex;
-}
-
-.twitter {
-  grid-area: twitter;
-  display: inline-flex;
 }
 
 .instagram {
@@ -308,6 +269,41 @@
   display: inline-flex;
 }
 
-.facebook {
-  grid-area: facebook;
+.wpp {
+  grid-area: wpp;
+  display: inline-flex;
+}
+
+.marketplace {
+  display: grid;
+  grid-template-areas: "fila1" "fila2" "fila3" "fila4" "fila5";
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 400px;
+  text-align: center;
+  align-items: center;
+}
+
+.fila1 {
+  grid-area: fila1;
+  align-self: center;
+}
+
+.fila2 {
+  grid-area: fila2;
+}
+
+.fila3 {
+  grid-area: fila3;
+}
+
+.fila4 {
+  grid-area: fila4;
+}
+
+.fila5 {
+  grid-area: fila5;
+}
+
+.separacion {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
